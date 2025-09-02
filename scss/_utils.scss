@@ -1,0 +1,15 @@
+// font-family 字型
+// font-size 字體大小
+// width、height 寬度
+// color 顏色
+// spacing 間距 (margin、padding...)
+// text-align 位置
+// font-weight 字體粗細
+// flex 布局設定
+$font-stack: Helvetica, sans-serif;
+$primary-color: #00f5a2;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}

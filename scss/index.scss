@@ -1,0 +1,11 @@
+// 全域基礎樣式
+@use "base";
+
+// 變數樣式
+@use "variables" as *;
+
+// 通用樣式
+@use "utils";
+
+// 元件樣式
+@use "components";
