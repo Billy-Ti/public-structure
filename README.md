@@ -46,7 +46,11 @@ PUBLIC-STRUCTURE/
 ## 🚀 注意事項
 1. 所有` _* .scss` 檔案為 partials，不可直接編譯，需由 `index.scss` 匯入。
 
-2. 編譯後的 CSS 建議統一輸出到 `scss/css/`
+2. 編譯後的 CSS 統一輸出到 `/css`資料夾內
 
+3. `.css.map` 檔案為壓縮後檔案，不需上傳至 FTP
 
+## 上傳 FTP
+- 只需將 `index.html`、`index.css`、`img/ 內的圖片 (可選)` 上傳即可
+- 其餘檔案請保留
 
