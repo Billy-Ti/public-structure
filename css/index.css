@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -137,12 +138,8 @@ table {
 /* 客製化圖片樣式 */
 img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: auto;
 }
 
-
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #00f5a2;
-}/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
