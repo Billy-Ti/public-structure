@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -138,8 +137,13 @@ table {
 /* 客製化圖片樣式 */
 img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   height: auto;
 }
 
-/*# sourceMappingURL=index.css.map */
+
+button {
+  background-color: #fff;
+  color: #000000;
+  border-radius: 6px;
+}/*# sourceMappingURL=index.css.map */
